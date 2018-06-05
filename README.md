@@ -9,6 +9,7 @@ Ada beberapa hal yang perlu di ubah mendukung tema ini (Optional) :
 		}
   dibawah kode $this->_get_common_data($data); pada function function kategori($kat=0,$p=1){ di donjo-app/controllers/First.php,	ini digunakan untuk memisahkan tampilan kategori dengan menu utama artikel
 - Ukuran peta embeded width 100% height 300px agar sesuai tema.
+- ukuran gambar slide yang recommend dengan tema ini width 1920px height 900px
 
 
   Demo Tema ODC di https://odc.orapakat.com
