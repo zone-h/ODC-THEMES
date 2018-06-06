@@ -14,6 +14,8 @@ Ada beberapa hal yang perlu di ubah mendukung tema ini (Optional) :
   tujuannya digunakan untuk memisahkan tampilan kategori dengan menu utama artikel
 - Ukuran peta embeded width 100% height 300px agar sesuai tema.
 - ukuran gambar slide yang recommend dengan tema ini width 1920px height 900px
+- menambahkan slide statistik dibawah slider:
+  Masuk ke siteman -> pilih menu Admin Web -> Pilih Tab Menu -> Pilih Menu Statis di Tab samping kiri -> pilih menu yang konten_statis dan tambahkan rinciannya. "konten_statis" merupakan menu yg otomatis ditambahkan saat dilakukan setup tema.
 
 
   Demo Tema ODC di https://odc.orapakat.com
