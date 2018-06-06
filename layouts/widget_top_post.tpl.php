@@ -16,11 +16,8 @@
 					      					$SQLArticleNew = "SELECT * FROM artikel WHERE enabled='1' ORDER BY tgl_upload DESC LIMIT 5";
 					      		          	$articleNew = $this->db->query($SQLArticleNew); 
 					      					foreach($articleNew->result() as $num => $rows): 
-					      						if($data['gambar']!='' && is_file(LOKASI_FOTO_ARTIKEL."sedang_".$data['gambar']) ){
-							              			$gmbr = AmbilFotoArtikel($rows->gambar,'sedang');
-							              		}else{
-							              			$gmbr = THEMES_PATH.$this->theme_folder.'/'.$this->theme.'/'."assets/img/blog/blog-12.jpg";
-							              		}
+					      					$gmbr = AmbilFotoArtikel($rows->gambar,'kecil');
+							              		
 					      				?>
 	                                    <div class="media">
 	                                        <a class="media-left" href="#">
